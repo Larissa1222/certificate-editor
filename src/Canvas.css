@@ -1,0 +1,33 @@
+body {
+  justify-content: center;
+}
+.toolbar {
+    display: flex;
+    flex-direction:row;
+    height: 60px;
+    justify-content: space-evenly;
+    border-bottom-style: solid;
+    border-width: 2px;
+    align-items: center;
+  }
+  .canvas {
+    padding: 0;
+    width: 1260px;
+    height:700px;
+    -webkit-print-color-adjust: exact;
+    background-size: 1260px 800px;
+    position:absolute;
+  }
+  #button {
+    height: 50px;
+  }
+  .input {
+    display:none;
+  }
+  .global {
+    height: 760px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1%;
+    width: 1260px;
+  }
